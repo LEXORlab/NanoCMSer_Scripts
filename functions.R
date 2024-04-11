@@ -1,3 +1,6 @@
+# parameters----
+cms.cols=c("#E79F24","#0071B1","#CA78A6","#009B74")
+names(cms.cols) = c("CMS1","CMS2","CMS3","CMS4")
 # functions----------------
 Combine_Normalize_FF<-function(genes){
   exprs=data.frame(exprs.Marisa[genes,],exprs.TCGA[genes,])
